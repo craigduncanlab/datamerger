@@ -6,6 +6,8 @@
 
 Use R Markdown and knitr to create a merged text file that you can use as the input text file for 'autostyler'
 
+## Example
+
 See example file : KnitExample.Rmd
 
 Then run the following from an R Studio console:
@@ -16,4 +18,4 @@ rmarkdown::render(input = "~/Documents/Path/KnitExample.Rmd",intermediates_dir="
 
 This will produce a markdown output file with .md extension, in the output folder.
 
-Use this as the input file for the workflow above.
+Use this as the input file for the autostyler input.
